@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "pm2 start lib/server.js -i 4",
+    "start:client": "node main.js"
   },
   "keywords": [],
   "author": "",
